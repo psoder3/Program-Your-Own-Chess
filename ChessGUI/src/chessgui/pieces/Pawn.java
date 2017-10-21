@@ -28,7 +28,7 @@ public class Pawn extends Piece {
         // move two spaces forward. Otherwise, it may only move one space. 
         // When not attacking it may only move straight ahead.
         // When attacking it may only move space diagonally forward
-        System.out.println("has moved yet? " + has_moved);
+
                 // WRITE CODE HERE
         
         return true;
