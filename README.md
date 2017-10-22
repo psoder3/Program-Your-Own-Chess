@@ -31,7 +31,7 @@ Your job is to program the game logic that restricts pieces from making illegal 
     }
 ```
 
-That method will return true if the desired moved is allowed and false otherwise. The following functions will be helpful for you:
+That method will return true if the desired moved is allowed and false otherwise. You will need to use the following methods in order to complete this:
 
 ```
 // put in the x and y values representing a position on the board (0-7,0-7) and this method returns the piece that is at that position. If there is no piece at that position, this method returns the null.
