@@ -46,39 +46,39 @@ public class Board extends JComponent {
         //Image white_piece = loadImage("images/white_pieces/" + piece_name + ".png");
         //Image black_piece = loadImage("images/black_pieces/" + piece_name + ".png");  
 
-        White_Pieces.add(new King(3,0,true,"King.png"));
-        White_Pieces.add(new Queen(4,0,true,"Queen.png"));
-        White_Pieces.add(new Bishop(2,0,true,"Bishop.png"));
-        White_Pieces.add(new Bishop(5,0,true,"Bishop.png"));
-        White_Pieces.add(new Knight(1,0,true,"Knight.png"));
-        White_Pieces.add(new Knight(6,0,true,"Knight.png"));
-        White_Pieces.add(new Rook(0,0,true,"Rook.png"));
-        White_Pieces.add(new Rook(7,0,true,"Rook.png"));
-        White_Pieces.add(new Pawn(0,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(1,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(2,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(3,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(4,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(5,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(6,1,true,"Pawn.png"));
-        White_Pieces.add(new Pawn(7,1,true,"Pawn.png"));
+        White_Pieces.add(new King(3,0,true,"King.png",this));
+        White_Pieces.add(new Queen(4,0,true,"Queen.png",this));
+        White_Pieces.add(new Bishop(2,0,true,"Bishop.png",this));
+        White_Pieces.add(new Bishop(5,0,true,"Bishop.png",this));
+        White_Pieces.add(new Knight(1,0,true,"Knight.png",this));
+        White_Pieces.add(new Knight(6,0,true,"Knight.png",this));
+        White_Pieces.add(new Rook(0,0,true,"Rook.png",this));
+        White_Pieces.add(new Rook(7,0,true,"Rook.png",this));
+        White_Pieces.add(new Pawn(0,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(1,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(2,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(3,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(4,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(5,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(6,1,true,"Pawn.png",this));
+        White_Pieces.add(new Pawn(7,1,true,"Pawn.png",this));
 
-        Black_Pieces.add(new King(3,7,false,"King.png"));
-        Black_Pieces.add(new Queen(4,7,false,"Queen.png"));
-        Black_Pieces.add(new Bishop(2,7,false,"Bishop.png"));
-        Black_Pieces.add(new Bishop(5,7,false,"Bishop.png"));
-        Black_Pieces.add(new Knight(1,7,false,"Knight.png"));
-        Black_Pieces.add(new Knight(6,7,false,"Knight.png"));
-        Black_Pieces.add(new Rook(0,7,false,"Rook.png"));
-        Black_Pieces.add(new Rook(7,7,false,"Rook.png"));
-        Black_Pieces.add(new Pawn(0,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(1,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(2,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(3,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(4,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(5,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(6,6,false,"Pawn.png"));
-        Black_Pieces.add(new Pawn(7,6,false,"Pawn.png"));
+        Black_Pieces.add(new King(3,7,false,"King.png",this));
+        Black_Pieces.add(new Queen(4,7,false,"Queen.png",this));
+        Black_Pieces.add(new Bishop(2,7,false,"Bishop.png",this));
+        Black_Pieces.add(new Bishop(5,7,false,"Bishop.png",this));
+        Black_Pieces.add(new Knight(1,7,false,"Knight.png",this));
+        Black_Pieces.add(new Knight(6,7,false,"Knight.png",this));
+        Black_Pieces.add(new Rook(0,7,false,"Rook.png",this));
+        Black_Pieces.add(new Rook(7,7,false,"Rook.png",this));
+        Black_Pieces.add(new Pawn(0,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(1,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(2,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(3,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(4,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(5,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(6,6,false,"Pawn.png",this));
+        Black_Pieces.add(new Pawn(7,6,false,"Pawn.png",this));
 
     }
 
@@ -140,7 +140,7 @@ public class Board extends JComponent {
     }
 
     
-    private Piece getPiece(int x, int y) {
+    public Piece getPiece(int x, int y) {
         for (Piece p : White_Pieces)
         {
             if (p.getX() == x && p.getY() == y)

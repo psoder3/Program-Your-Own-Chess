@@ -1,12 +1,14 @@
 package chessgui.pieces;
 
+import chessgui.Board;
+
 public class Pawn extends Piece {
 
     private boolean has_moved;
     
-    public Pawn(int x, int y, boolean is_white, String file_path)
+    public Pawn(int x, int y, boolean is_white, String file_path, Board board)
     {
-        super(x,y,is_white,file_path);
+        super(x,y,is_white,file_path, board);
         has_moved = false;
     }
     
@@ -31,6 +33,8 @@ public class Pawn extends Piece {
 
                 // WRITE CODE HERE
         
+                
+                
         return true;
     }
 }

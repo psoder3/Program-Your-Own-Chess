@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/Board.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/King.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/Rook.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/Knight.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/ChessGUI.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/BoardFrame.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/Piece.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/Bishop.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/Queen.java</file>
+            <file>file:/Users/paulsoderquist/NetBeansProjects/ChessGUI/src/chessgui/pieces/Pawn.java</file>
+        </group>
+    </open-files>
+</project-private>
