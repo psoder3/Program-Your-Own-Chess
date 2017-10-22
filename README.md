@@ -11,7 +11,27 @@ The white pieces go first and then the black pieces, and they continue to take t
 The pieces can move anywhere right now. If the place they move to has a piece, that piece will be killed, even if it is the player's own piece.
 
 ## Instructions
-Your job is to program the game logic that restricts pieces from making illegal moves. You will implement the canMove method for the King, Queen, Bishop, Knight, Rook, and Pawn classes. That method will return true if the desired moved is allowed and false otherwise. The following functions will be helpful for you:
+Your job is to program the game logic that restricts pieces from making illegal moves. You will implement the canMove method for the King, Queen, Bishop, Knight, Rook, and Pawn classes. Here is what the Pawn's canMove method looks like:
+
+```
+    @Override
+    public boolean canMove(int destination_x, int destination_y)
+    {
+        // Remember: A pawn may only move towards the oponent's side of the board.
+        // If the pawn has not moved yet in the game, for its first move it can 
+        // move two spaces forward. Otherwise, it may only move one space. 
+        // When not attacking it may only move straight ahead.
+        // When attacking it may only move space diagonally forward
+
+                // WRITE CODE HERE
+        
+                
+                
+        return true;
+    }
+```
+
+That method will return true if the desired moved is allowed and false otherwise. The following functions will be helpful for you:
 
 ```
 // put in the x and y values representing a position on the board (0-7,0-7) and this method returns the piece that is at that position. If there is no piece at that position, this method returns the null.
