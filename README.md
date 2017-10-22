@@ -1,7 +1,7 @@
 # Program-Your-Own-Chess
 
 ## Purpose
-This Java project is designed to help students incorporate some of the things they've already learned with my code in order to create a fully-functional chess game.
+Students will apply many of the concepts they've already learned in order to add on to my code and create a fully-functional chess game.
 
 ## Current Behavior of the Project
 The user interface is already created. There is a board and 32 pieces. Feel free to replace the piece images with your own.
