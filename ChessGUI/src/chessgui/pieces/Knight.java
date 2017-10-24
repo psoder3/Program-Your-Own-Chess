@@ -14,6 +14,14 @@ public class Knight extends Piece {
     {
         // Remember: a knight can move in any L shape and can jump over anyone
         // in order to do so. He cannot attack his own pieces.
+        // By an L shape, I mean it can move to a square that is 2 squares away
+        // horizontally and 1 square away vertically, or 1 square away horizontally
+        // and 2 squares away vertically.
+        // some examples:
+        //
+        //  * *       * * *           *       *
+        //  *             *       * * *       *
+        //  *                                 * *
             
                 // WRITE CODE HERE
         
