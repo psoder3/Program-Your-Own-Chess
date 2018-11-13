@@ -163,6 +163,11 @@ public class Board extends JComponent {
         @Override
         public void mouseClicked(MouseEvent e) {
 
+                
+        }
+
+        @Override
+        public void mousePressed(MouseEvent e) {
             int d_X = e.getX();
             int d_Y = e.getY();  
             int Clicked_Row = d_Y / Square_Width;
@@ -215,14 +220,7 @@ public class Board extends JComponent {
                 turnCounter++;
             }
             
-            drawBoard();    
-        }
-
-        @Override
-        public void mousePressed(MouseEvent e) {
-                int d_X = e.getX();
-                int d_Y = e.getY();
-
+            drawBoard();
         }
 
         @Override
