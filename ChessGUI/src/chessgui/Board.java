@@ -46,7 +46,7 @@ public class Board extends JComponent {
         //Image white_piece = loadImage("images/white_pieces/" + piece_name + ".png");
         //Image black_piece = loadImage("images/black_pieces/" + piece_name + ".png");  
 
-        White_Pieces.add(new King(3,0,true,"King.png",this));
+       
         White_Pieces.add(new Queen(4,0,true,"Queen.png",this));
         White_Pieces.add(new Bishop(2,0,true,"Bishop.png",this));
         White_Pieces.add(new Bishop(5,0,true,"Bishop.png",this));
